@@ -1,2 +1,3 @@
 name: Abdullah Ilgaz, The Ilgaz Code
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
