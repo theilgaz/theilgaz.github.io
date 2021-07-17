@@ -9,11 +9,11 @@ layout: default
   </header>
   
 <div class="row justify-content-center">
-  <div class="col-md-8">
+  <div class="col-md-12">
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
       <h3 class="mt-4">{{ category | first }}</h3>
-      <p>{% for post in category[1] %}{{ forloop.index }}.&nbsp;<a class="mr-2" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>{% endfor %}</p>
+      <p><ul class="post-list">{% for post in category[1] %}<li>{{ forloop.index }}.&nbsp;<a class="mr-2" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>{% endfor %}</li></ul></p>
     {% endfor %}
   </div>
 </div>

@@ -363,3 +363,10 @@ table {
     padding-bottom: .6em;
   }
 }
+
+.post-list {
+  padding-left:0px !important;
+}
+.post-list > li {
+  list-style-type: none;
+}
