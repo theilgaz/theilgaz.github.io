@@ -1,0 +1,22 @@
+<div class="container">
+  <footer class="mb-3">
+    <div class="container">
+      <div class="row biography">
+        <div class="col-sm-6">
+          <h2>ABDULLAH</h2>
+          <p>{{ site.biography }}</p>
+        </div>
+        <div class="col-sm-6">
+          <h2>SAYFA</h2>
+          <p>{{ site.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% if site.colophon %}
+    <div class="row copyright text-center">
+      <div class="col-sm-12"><img src="/favicon.ico" alt="Abdullah Ilgaz" title="Hello there! I'm Abdullah." style="height:64px;float:left"/> {{ site.colophon }}</div>
+    </div>
+    {% endif %}
+  </div>
+  </footer>
+</div>

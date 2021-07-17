@@ -1,6 +1,22 @@
-name: Abdullah Ilgaz, The Ilgaz Code
-title: Abdullah Ilgaz
-description: programming and human factors
+# Site settings
+title: "Abdullah Ilgaz"
+author: "Abdullah Ilgaz"
+description: "Bu sayfa programlama, insan faktörü ve ara sıra deneme yazıları içerir. Ancak yazılar bu sırayla yer almaz."
+keywords: "Software Engineering, Human Factors, Philosophy, Pascal, Delphi, C#, .NET, Blazor, WebAssembly, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles, Games, Formula One, Basketball, Baseball"
+biography: "I am a Software Craftsman at the <a target='_blank' href='http://www.entegreyazilim.com.tr'>Company</a>, a Developer MVP at <a target='_blank' href='https://embarcadero.com/partners/mvp-directory'>Embarcadero</a>,<br>and a Jedi Daddy for Zeybie."
+colophon: "© MMXXI by Abdullah Ilgaz.<br>İçerik, aksi belirtilmedikçe <a target='_blank' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> kapsamındadır."
+
+baseurl: ""
+url: "https://abdullahilgaz.com"
+
+twitter_username: theilgazcode
+github_username: theilgazcode
+linkedin_username: abdullahilgaz
+instagram_username: theilgazcode
+google-analytics: UA-111262192-1
+
+simple_search: http://google.com/search
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-hacker
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+  
