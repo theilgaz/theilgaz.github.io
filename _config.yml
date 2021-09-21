@@ -9,10 +9,9 @@ colophon: "© MMXXI by Abdullah Ilgaz.<br>İçerik, aksi belirtilmedikçe <a tar
 baseurl: ""
 url: "https://abdullahilgaz.com"
 
-twitter_username: theilgazcode
-github_username: theilgazcode
-linkedin_username: abdullahilgaz
-instagram_username: theilgazcode
+twitter_username: theilgaz
+github_username: theilgaz
+linkedin_username: abdullahilgaz 
 google-analytics: UA-111262192-1
 
 simple_search: http://google.com/search
